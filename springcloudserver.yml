@@ -68,9 +68,6 @@ spring:
 ---
 spring:
   profiles: prueba
-  properties:
-      hibernate:
-          ejb:
-            interceptor: pe.joedayz.api.jpa.ApiEntityInterceptorImpl
-          jdbc:
-            batch_size: 20
+  hello:
+    message: "Holis"
+           
