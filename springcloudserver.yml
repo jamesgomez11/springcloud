@@ -70,3 +70,5 @@ spring:
   profiles: prueba
   server:
     port: 9095
+  hello:
+    message: Hola mundo
