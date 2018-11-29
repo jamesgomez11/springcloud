@@ -66,9 +66,10 @@ spring:
             batch_size: 20
 
 ---
+hello:
+    message: Hola mundo
 spring:
   profiles: prueba
-  server:
-    port: 9095
-  hello:
-    message: Hola mundo
+server:
+  port: 9095
+  
