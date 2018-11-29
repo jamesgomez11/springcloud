@@ -1,0 +1,6 @@
+hello:
+    message: Hola mundo
+spring:
+  profiles: prueba
+server:
+  port: 9095
