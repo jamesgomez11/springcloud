@@ -70,4 +70,6 @@ spring:
   profiles: prueba
   vars:
     hello.message: "Holis"
+  server:
+    port: 9095
            
