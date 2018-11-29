@@ -68,6 +68,6 @@ spring:
 ---
 spring:
   profiles: prueba
-  level:
+  vars:
     hello.message: "Holis"
            
