@@ -52,7 +52,7 @@ spring:
 
 ---
 spring:
-  profiles: joeint
+  profiles: james
 
   mail:
     host: smtp.gmail.com
@@ -61,23 +61,6 @@ spring:
     username: campus@joedayz.pe
     password: ArrozConAngular2
     fromIP: campus.joedayz.pe
-
-  datasource:
-    url: jdbc:mysql://localhost/joecampus_api
-    username: joecampus_api
-    password: Dr3cVhcAB!d#6WqU
-    testOnBorrow: true
-    removeAbandonedTimeout: 1800
-    removeAbandoned: true
-    validationQuery: SELECT 1 FROM DUAL
-    logAbandoned: true
-    minEvictableIdleTimeMillis: 60000
-    defaultReadOnly: false
-    maxWait: 60000
-    maxIdle: 1
-    minIdle: 0
-    maxActive: 50
-    initialSize: 1
 
   jpa:
     database-platform: org.hibernate.dialect.MySQL5Dialect
