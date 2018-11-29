@@ -68,4 +68,9 @@ spring:
 ---
 spring:
   profiles: prueba
- hello.message=Hello from Client A
+  properties:
+      hibernate:
+          ejb:
+            interceptor: pe.joedayz.api.jpa.ApiEntityInterceptorImpl
+          jdbc:
+            batch_size: 20
