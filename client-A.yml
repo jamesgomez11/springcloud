@@ -1,6 +1,6 @@
 spring:
-  profiles: default
+  profiles: dev
 server:
   port: 9095
 hello:
-    message: Hola James
+    message: Holaaaaaaaa!
