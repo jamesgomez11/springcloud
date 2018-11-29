@@ -53,8 +53,8 @@ spring:
   mail:
     host: smtp.gmail.com
     port: 465
-    sender: campus@joedayz.pe
-    username: campus@joedayz.pe
+    sender: james@joedayz.pe
+    username: james@joedayz.pe
     password: ArrozConAngular2
     fromIP: campus.joedayz.pe
 
