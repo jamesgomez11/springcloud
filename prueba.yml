@@ -58,16 +58,6 @@ spring:
     password: ArrozConAngular2
     fromIP: campus.joedayz.pe
 
-  jpa:
-    database-platform: org.hibernate.dialect.MySQL5Dialect
-    show-sql: true
-
-    hibernate:
-      ddl-auto: update
-      naming-strategy: org.hibernate.cfg.DefaultNamingStrategy
-
-
-
     properties:
       hibernate:
           ejb:
