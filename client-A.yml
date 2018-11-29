@@ -1,6 +1,6 @@
 hello:
     message: Hola mundo
 spring:
-  profiles: prueba
+  profiles: default
 server:
   port: 9095
