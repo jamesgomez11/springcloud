@@ -64,3 +64,8 @@ spring:
             interceptor: pe.joedayz.api.jpa.ApiEntityInterceptorImpl
           jdbc:
             batch_size: 20
+
+---
+spring:
+  profiles: prueba
+ hello.message=Hello from Client A
