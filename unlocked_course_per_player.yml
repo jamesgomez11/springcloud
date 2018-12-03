@@ -1,7 +1,5 @@
-server:
-  port: 8085
-
 spring:
+  profiles: dev
   batch:
       initialize-schema: never
   datasource:
@@ -19,6 +17,9 @@ spring:
     properties:
     database-platform: org.hibernate.dialect.PostgreSQLDialect
 
+server:
+  port: 8085
+  
 security:
   basic:
     enabled: false
