@@ -1,0 +1,24 @@
+server:
+  port: 8085
+
+spring:
+  batch:
+      initialize-schema: never
+  datasource:
+    url: jdbc:postgresql://dchaos.cfpz9wwo4rqd.us-east-1.rds.amazonaws.com:5432/dchaos
+    username: quizzy
+    password: quizzy
+    testWhileIdle: true
+    validationQuery: SELECT 1
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: create-drop
+    properties:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+
+security:
+  basic:
+    enabled: false
